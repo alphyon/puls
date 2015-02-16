@@ -180,15 +180,4 @@ nav ul li a{
   }
 }
 
-@media screen and (min-device-width : 320px){
-  #contenido{
-    background:red;
-    overflow:hidden;
-  }
-  #contenido .item{
-    width:315px;
-    float:left;
-
-  }
-
 }
