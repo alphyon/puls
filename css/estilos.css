@@ -182,11 +182,10 @@ nav ul li a{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #contenido{
-    background:#f00;
     overflow:hidden;
   }
   #contenido .item{
-    width:100%;
+    width:315px;
     float:left;
 
   }
