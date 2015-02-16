@@ -37,18 +37,26 @@
 
 .icon-f-abajo:before {
   content: "\e600";
+  color:#dd4f24;
 }
 
 .icon-f-arriba:before {
   content: "\e601";
+  color:#188612;
 }
 
 .icon-lapiz:before {
   content: "\e908";
+  margin-right: 0.8em;
 }
 
 .icon-estrella:before {
   content: "\e9d9";
+  color:#f3f723;
+  margin-right:0.3em;
+  position: relative;
+  top: 0.1em;
+
 }
 
 .icon-msg:before {
