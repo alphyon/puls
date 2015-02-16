@@ -50,6 +50,18 @@ header #avatar img{
   width:55px;
 }
 header #logo img{
+  border-radius:50%;
+  width:52px;
+  -webkit-transition:1.5s;
+
+}
+header #logo img:hover{
+
+  -webkit-transform:rotate(360deg);
+
+}
+
+header #logo{
   border-right: 1px solid #fff;
   margin-right:0.5em;
   padding-right:0.5em;
@@ -80,10 +92,24 @@ nav ul #publicar_nav a{
   border-radius:5px;
   box-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
   font-style:italic;
-  padding:0.8em 0.5em ;
+  padding:0.8em 1em 0.8em 2.5em;
   text-decoration:none;
   text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;
 }
+nav ul #publicar_nav a:before{
+ position:absolute;
+ top:0.7em;
+ left:0.7em;
+
+
+}
+nav ul #publicar_nav a:hover:before{
+ font-size:20px;
+
+
+
+}
+
 nav ul li{
   display: inline-block;
   margin:0 1em 0 0;
@@ -95,6 +121,12 @@ nav ul li a{
   display:block;
   padding:0.5em;
   text-decoration:none;
+  -webkit-transition:0.3s;
+}
+nav ul li a:hover{
+  background:#343b54;
+
+
 }
 
 #contenido{
