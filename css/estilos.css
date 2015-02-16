@@ -176,7 +176,7 @@ nav ul li a{
 
   }
   #contenido .item:nth-child(odd){
-    smargin-right:2%;
+    margin-right:2%;
   }
 }
 
