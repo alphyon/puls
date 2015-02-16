@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'candelabook';
+    src: url('../fonts/CandelaBook-webfont.eot');
+    src: url('../fonts/CandelaBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CandelaBook-webfont.woff') format('woff'),
+         url('../fonts/CandelaBook-webfont.ttf') format('truetype'),
+         url('../fonts/CandelaBook-webfont.svg#candelabook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?-mrm8wz');
+  src:url('../fonts/icomoon.eot?#iefix-mrm8wz') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?-mrm8wz') format('woff'),
+    url('../fonts/icomoon.ttf?-mrm8wz') format('truetype'),
+    url('../fonts/icomoon.svg?-mrm8wz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-f-abajo:before {
+  content: "\e600";
+}
+
+.icon-f-arriba:before {
+  content: "\e601";
+}
+
+.icon-lapiz:before {
+  content: "\e908";
+}
+
+.icon-estrella:before {
+  content: "\e9d9";
+}
+
+.icon-msg:before {
+  content: "\ea9b";
+}
