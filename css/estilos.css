@@ -165,3 +165,30 @@ nav ul li a{
 #contenido .item .votacion .guardar_item{
   float:right;
 }
+
+@media screen and (min-width:800px){
+  #contenido{
+    overflow:hidden;
+  }
+  #contenido .item{
+    width:49%;
+    float:left;
+
+  }
+  #contenido .item:nth-child(odd){
+    smargin-right:2%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #contenido{
+    background:#f00;
+    overflow:hidden;
+  }
+  #contenido .item{
+    width:100%;
+    float:left;
+
+  }
+
+}
