@@ -109,6 +109,10 @@ nav ul #publicar_nav a:hover:before{
 
 
 }
+nav ul #publicar_nav .disabled{
+  background:#ccc;
+  cursor:default;
+}
 
 nav ul li{
   display: inline-block;
