@@ -29,10 +29,15 @@
       <li><a href="">CSS3</a></li>
       <li><a href="">Android</a></li>
       <li id="publicar_nav">
-        <a href="" class="icon-lapiz">Publicar</a>
+        <a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
         </li>
     </ul>
   </nav>
+  <form action="" id="formulario" class="formulario">
+    <input type="text" id="titulo" placeholder="Título:"required />
+    <input type="url" id="url" placeholder="Link" required />
+    <input type="submit" value="Enviar"  />
+  </form>
   <section id="contenido">
     <article class="item">
       <figure class="imagen_item">
@@ -159,5 +164,7 @@
     <p><strong>Power by Alphyon</strong></p>
     <p>Clase Platzi</p>
   </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/formulario.js"></script>
 </body>
 </html>
