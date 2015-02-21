@@ -18,7 +18,7 @@
     </figure>
     <h1>Puls 2015 Comunidad</h1>
     <figure id="avatar">
-      <img src="imagenes/avatar.jpg" alt="" />
+      <!--<img src="imagenes/avatar.jpg" alt="" />-->
     </figure>
   </header>
   <nav>
@@ -38,6 +38,10 @@
     <input type="url" id="url" placeholder="Link" required />
     <input type="submit" value="Enviar"  />
   </form>
+  <aside>
+    <div id="clima"></div>
+    <div id="geo"></div>
+  </aside>
   <section id="contenido">
     <article class="item">
       <figure class="imagen_item">
@@ -163,9 +167,12 @@
   <footer>
     <p><strong>Power by Alphyon</strong></p>
     <p>Clase Platzi</p>
+    <div class="logos"></div>
   </footer>
   <script src="js/jquery.js"></script>
   <script src="js/formulario.js"></script>
+  <script src="js/geo.js"></script>
+  <script src="js/ajax.js"></script>
   <script>
     window.onload = function(){
       console.log('evento disparado');
